@@ -12,6 +12,8 @@ deploy:
   acl: public_read
   skip_cleanup: true
   local_dir: build
+  on:
+    all_branches: true
 addons:
   apt:
     update: true
