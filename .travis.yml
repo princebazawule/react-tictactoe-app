@@ -14,7 +14,7 @@ deploy:
   local_dir: build
 branches:
   only:
-    - main
+    - master 
 addons:
   apt:
     update: true
