@@ -18,3 +18,4 @@ branches:
 addons:
   apt:
     update: true
+script: 'true'
